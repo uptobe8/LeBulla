@@ -1,39 +1,49 @@
 {
   "mixcloud": [
     {
-      "id": "cursiva",
-      "title": "Le Bulla — Cursiva",
+      "id": "mc-LeBulla-alik-n-roi-cursiva",
+      "title": "Le Bulla - Cursiva",
       "duration": "39:25",
       "genre": "SESIÓN ORIGINAL",
-      "url": "https://www.mixcloud.com/LeBulla/alik-n-roi-cursiva/"
+      "url": "https://www.mixcloud.com/LeBulla/alik-n-roi-cursiva/",
+      "artwork": "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/d/a/7/9/f74c-1e0b-43ac-bf84-35e581ac79f1",
+      "published": "2024-09-29T02:34:24Z"
     },
     {
-      "id": "noni",
-      "title": "Le Bulla — No ni ná",
+      "id": "mc-LeBulla-alik-n-roi-no-ni-n%C3%A1",
+      "title": "Le Bulla - No ni ná",
       "duration": "1:35:19",
       "genre": "DISCO HOUSE · AFRO HOUSE · TECH HOUSE",
-      "url": "https://www.mixcloud.com/LeBulla/alik-n-roi-no-ni-n%C3%A1/"
+      "url": "https://www.mixcloud.com/LeBulla/alik-n-roi-no-ni-n%C3%A1/",
+      "artwork": "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/5/f/8/e38b-6d87-4005-9df5-c28f61b7ac9d",
+      "published": "2024-08-28T19:51:59Z"
     },
     {
-      "id": "ritual",
-      "title": "Le Bulla — Ritualissimo",
+      "id": "mc-LeBulla-alikn-roi-ritualissimo",
+      "title": "Le Bulla - Ritualissimo",
       "duration": "55:48",
-      "genre": "ORGANIC HOUSE · ELECTRO HOUSE",
-      "url": "https://www.mixcloud.com/LeBulla/alikn-roi-ritualissimo/"
+      "genre": "ORGANIC HOUSE · ELECTRO HOUSE · MELODIC TECHNO",
+      "url": "https://www.mixcloud.com/LeBulla/alikn-roi-ritualissimo/",
+      "artwork": "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/1/2/0/b/ce0b-4c86-4a12-90e0-9bf77ec7f220",
+      "published": "2023-12-08T11:36:50Z"
     },
     {
-      "id": "sinner",
-      "title": "Le Bulla — Sinner's Church",
+      "id": "mc-LeBulla-sinners-church",
+      "title": "Le Bulla - Sinner's Church",
       "duration": "1:04:56",
       "genre": "AFRO HOUSE · MELODIC HOUSE",
-      "url": "https://www.mixcloud.com/LeBulla/sinners-church/"
+      "url": "https://www.mixcloud.com/LeBulla/sinners-church/",
+      "artwork": "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/3/e/c/5/f6e9-7235-42d7-91ce-905aaabc48b8",
+      "published": "2023-08-04T17:04:41Z"
     },
     {
-      "id": "circus",
-      "title": "Le Bulla — Circus Lights",
+      "id": "mc-LeBulla-alik-n-roi-circus-lights",
+      "title": "Le Bulla - Circus Lights",
       "duration": "55:56",
       "genre": "SESIÓN ORIGINAL",
-      "url": "https://www.mixcloud.com/LeBulla/alik-n-roi-circus-lights/"
+      "url": "https://www.mixcloud.com/LeBulla/alik-n-roi-circus-lights/",
+      "artwork": "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/b/2/8/8/19cf-15cb-412a-9b8b-1c8a597c6dc6",
+      "published": "2023-07-17T20:05:50Z"
     }
   ],
   "youtube": [
@@ -70,5 +80,6 @@
       "genre": "CANAL OFICIAL · AUDIO",
       "url": "https://soundcloud.com/lebulla"
     }
-  ]
+  ],
+  "lastUpdated": "2026-10-21T18:55:31+00:00"
 }
