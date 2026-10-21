@@ -1,0 +1,12 @@
+LE BULLA · VERSIÓN 2 · ACTIVACIÓN EN GITHUB
+
+1. Sube el CONTENIDO de esta carpeta a la raíz de github.com/uptobe8/LeBulla (rama main), sustituyendo index.html, conservando assets y añadiendo data, scripts, manifest.webmanifest y .github/workflows.
+2. En GitHub > Settings > Pages > Build and deployment > Source elige «GitHub Actions». Este ajuste es imprescindible para que las actualizaciones automáticas se publiquen.
+3. En Actions, ejecuta «Actualizar musica Le Bulla y publicar» > Run workflow para la primera sincronización. GitHub repetirá la comprobación cada 6 horas (puede retrasarse).
+4. Mixcloud consulta automáticamente las sesiones públicas del usuario LeBulla y no requiere claves.
+5. Para actualizar YouTube, en Settings > Secrets and variables > Actions > Variables crea YOUTUBE_CHANNEL_IDS con los IDs UC... de los canales autorizados de Le Bulla, separados por comas. No se ha supuesto que los canales que alojaban los tres vídeos sean propiedad del DJ. Sin este dato se conservan esos vídeos, pero no se buscan nuevas publicaciones en YouTube.
+6. Para nuevas pistas individuales de SoundCloud, crea dos secretos en Settings > Secrets and variables > Actions > Secrets: SOUNDCLOUD_CLIENT_ID y SOUNDCLOUD_CLIENT_SECRET. Se obtienen de una aplicación SoundCloud autorizada; sin ellos se mantiene el perfil oficial ya enlazado, sin sincronización de pistas individuales.
+
+CarPlay: se aportan metadatos Media Session y carátulas locales, pero no se puede garantizar que los iframes de terceros (Mixcloud, YouTube o SoundCloud) no sustituyan los metadatos en iOS/CarPlay. No es una aplicación nativa CarPlay ni se incluye integración privada en el coche.
+
+Abre index.html sin conexión para usar la interfaz y el vídeo local. Los medios alojados por terceros precisan acceso a Internet.

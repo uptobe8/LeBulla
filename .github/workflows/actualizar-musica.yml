@@ -1,0 +1,56 @@
+name: Actualizar musica Le Bulla y publicar
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: le-bulla-pages
+  cancel-in-progress: false
+
+jobs:
+  catalogo:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Consultar fuentes oficiales
+        env:
+          YOUTUBE_CHANNEL_IDS: ${{ vars.YOUTUBE_CHANNEL_IDS }}
+          SOUNDCLOUD_CLIENT_ID: ${{ secrets.SOUNDCLOUD_CLIENT_ID }}
+          SOUNDCLOUD_CLIENT_SECRET: ${{ secrets.SOUNDCLOUD_CLIENT_SECRET }}
+        run: python scripts/sync_catalog.py
+      - name: Guardar catalogo si cambia
+        run: |
+          git add data/catalog.json
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Actualizar sesiones publicadas'
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - name: Preparar web para publicar
+        run: |
+          mkdir -p public
+          cp index.html manifest.webmanifest .nojekyll public/
+          cp -R assets data public/
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: './public' 
+      - name: Publicar GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

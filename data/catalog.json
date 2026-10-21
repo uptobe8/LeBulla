@@ -1,0 +1,74 @@
+{
+  "mixcloud": [
+    {
+      "id": "cursiva",
+      "title": "Le Bulla — Cursiva",
+      "duration": "39:25",
+      "genre": "SESIÓN ORIGINAL",
+      "url": "https://www.mixcloud.com/LeBulla/alik-n-roi-cursiva/"
+    },
+    {
+      "id": "noni",
+      "title": "Le Bulla — No ni ná",
+      "duration": "1:35:19",
+      "genre": "DISCO HOUSE · AFRO HOUSE · TECH HOUSE",
+      "url": "https://www.mixcloud.com/LeBulla/alik-n-roi-no-ni-n%C3%A1/"
+    },
+    {
+      "id": "ritual",
+      "title": "Le Bulla — Ritualissimo",
+      "duration": "55:48",
+      "genre": "ORGANIC HOUSE · ELECTRO HOUSE",
+      "url": "https://www.mixcloud.com/LeBulla/alikn-roi-ritualissimo/"
+    },
+    {
+      "id": "sinner",
+      "title": "Le Bulla — Sinner's Church",
+      "duration": "1:04:56",
+      "genre": "AFRO HOUSE · MELODIC HOUSE",
+      "url": "https://www.mixcloud.com/LeBulla/sinners-church/"
+    },
+    {
+      "id": "circus",
+      "title": "Le Bulla — Circus Lights",
+      "duration": "55:56",
+      "genre": "SESIÓN ORIGINAL",
+      "url": "https://www.mixcloud.com/LeBulla/alik-n-roi-circus-lights/"
+    }
+  ],
+  "youtube": [
+    {
+      "id": "bridge",
+      "title": "Le Bulla — Bridge 48 Live Set",
+      "duration": "LIVE SET",
+      "genre": "INDIE DANCE · HOUSE · AIRFRYER COLLECTIVE",
+      "youtubeId": "udaSeXCRQn0",
+      "url": "https://www.youtube.com/watch?v=udaSeXCRQn0"
+    },
+    {
+      "id": "airfryer",
+      "title": "Le Bulla — Session #006",
+      "duration": "LIVE SET",
+      "genre": "HOUSE · AIRFRYER COLLECTIVE",
+      "youtubeId": "sFto1Cpjzm8",
+      "url": "https://www.youtube.com/watch?v=sFto1Cpjzm8"
+    },
+    {
+      "id": "bloop",
+      "title": "Master Tempo w/ Le Bulla",
+      "duration": "RADIO SET",
+      "genre": "BLOOP LONDON RADIO · 18.10.2024",
+      "youtubeId": "Kul1j0ZmTuw",
+      "url": "https://www.youtube.com/watch?v=Kul1j0ZmTuw"
+    }
+  ],
+  "soundcloud": [
+    {
+      "id": "profile",
+      "title": "Le Bulla — SoundCloud",
+      "duration": "PERFIL",
+      "genre": "CANAL OFICIAL · AUDIO",
+      "url": "https://soundcloud.com/lebulla"
+    }
+  ]
+}
